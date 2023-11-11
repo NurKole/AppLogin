@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="@color/white">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/duvarım"
+        android:title="duvarım"
+        android:icon="@drawable/folder_image"
+
+        />
+        <item
+
+            android:id="@+id/Ortak_klasorler"
+            android:title="Ortak_klasorler"
+            android:icon="@drawable/folder_image"
+            />
+    <item
+        android:id="@+id/benimle_paylaşılanlar"
+        android:title="bana_payla_lanlar"
+        android:icon="@drawable/folder_image"
+
+        />
+    <item
+        android:id="@+id/medyalar"
+        android:title="medyalar"
+        android:icon="@drawable/ic_baseline_perm_media_24"
+        />
+        <item
+            android:id="@+id/fotograflar"
+            android:title="fotograflar"
+            android:icon="@drawable/ic_baseline_insert_photo_24"
+            />
+        <item
+            android:id="@+id/videolar"
+            android:title="videolar"
+            android:icon="@drawable/ic_baseline_video_library_24"
+            />
+        <item
+            android:id="@+id/belgeler"
+            android:title="belgeler"
+            android:icon="@drawable/ic_baseline_file_copy_24"
+
+            />
+        <item
+
+            android:id="@+id/Divvy_mail"
+            android:title="Divvy Mail"
+            android:icon="@drawable/ic_baseline_mail_24"
+            />
+        <item
+            android:id="@+id/Takvim"
+            android:title="Divvy Takvim"
+            android:icon="@drawable/ic_baseline_calendar_month_24"
+
+            />
+        <item
+            android:id="@+id/Takip"
+            android:title="İş Takip"
+            android:icon="@drawable/ic_baseline_done_24"
+            />
+        <item
+            android:id="@+id/Şifreler"
+            android:title="Şifreler"
+            android:icon="@drawable/ic_baseline_vpn_key_24"
+            />
+        <item
+            android:id="@+id/Notlar"
+            android:title="Divvy Notlar"
+            android:icon="@drawable/ic_baseline_note_24"
+            />
+        <item
+            android:id="@+id/İstekler"
+            android:title="Yükleme İstekleri"
+            android:icon="@drawable/ic_baseline_cloud_upload_24"
+
+            />
+        <item
+
+            android:id="@+id/Paylaşım"
+            android:title="Paylaşım"
+            android:icon="@drawable/ic_baseline_share_24"
+            />
+        <item
+            android:id="@+id/Gruplar"
+            android:title="Kullanıcı Grupları"
+            android:icon="@drawable/ic_baseline_groups_2_24"
+
+            />
+        <item
+            android:id="@+id/Arşiv_Grupları"
+            android:title="Arşiv Grupları"
+            android:icon="@drawable/ic_baseline_archive_24"
+            />
+        <item
+            android:id="@+id/GeriDönüşümKutusu"
+            android:title="Geri Dönüşüm Kutusu"
+            android:icon="@drawable/ic_baseline_insert_photo_24"
+            />
+        <item
+            android:id="@+id/Geçmiş"
+            android:title="Geçmiş"
+            android:icon="@drawable/ic_baseline_video_library_24"
+            />
+    </group>
+</menu>

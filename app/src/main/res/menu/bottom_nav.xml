@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Duvarım"
+        android:id="@+id/duvarım"
+        android:icon="@drawable/ic_baseline_folder_24"
+
+       />
+    <item
+        android:title="Medyalar"
+        android:id="@+id/medyalar"
+        android:icon="@drawable/ic_baseline_perm_media_24"
+       />
+    <item
+        android:title="Kısayollar"
+        android:id="@+id/kısayollar"
+        android:icon="@drawable/ic_baseline_app_shortcut_24"
+        />
+</menu>

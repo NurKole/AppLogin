@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">my app login</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="open_drawer">open Drawer</string>
+    <string name="close_drawer">close Drawer</string>
+</resources>

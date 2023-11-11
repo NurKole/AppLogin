@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/duvarım"
+        android:title="duvarım"
+        android:icon="@drawable/folder_image"
+
+        />
+    <item
+
+        android:id="@+id/Ortak_klasorler"
+        android:title="Ortak klasorler"
+        android:icon="@drawable/folder_image"
+        />
+    <item
+        android:id="@+id/benimle_paylaşılanlar"
+        android:title="benimle paylaşılanlar"
+        android:icon="@drawable/folder_image"
+
+        />
+        <item
+            android:id="@+id/arama"
+            android:title="arama"
+            android:icon="@drawable/ic_baseline_search_24"
+            app:showAsAction="ifRoom"
+
+            />
+
+    </group>
+</menu>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="242dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/loginlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/log_username"
+        android:layout_width="284dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="64dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/log_password"
+        android:layout_width="287dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="@+id/log_username"
+        app:layout_constraintStart_toStartOf="@+id/log_username"
+        app:layout_constraintTop_toBottomOf="@+id/log_username" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="287dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="giriş"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/log_password"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/log_password"
+        app:layout_constraintTop_toBottomOf="@+id/log_password" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Girişi"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
